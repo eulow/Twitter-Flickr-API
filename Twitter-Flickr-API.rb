@@ -76,7 +76,7 @@ end
 
 ### Method to retrieve photos from both Twitter and Flickr and sort by retweets/comments
 
-def retrieve_photos_by_jibe
+def retrieve_photos
   retrieve_flickr
   retrieve_tweets
 
@@ -87,4 +87,4 @@ def retrieve_photos_by_jibe
   puts @all_photos
 end
 
-retrieve_photos_by_jibe
+retrieve_photos
